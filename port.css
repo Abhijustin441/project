@@ -1,0 +1,163 @@
+body{
+    margin:0;
+    padding:0;
+    max-height:auto;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+}
+
+#ab{
+    border:1px solid white;
+    border-radius: 20px;
+    background: url(black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#slide{
+    border: 1px solid rgb(92, 88, 88);
+    border-radius: 20px;
+}
+
+#box{
+    margin-top:250px;
+}
+.headliner{
+    text-align: center;
+    border: 1px solid;
+    border-color: rgb(194, 186, 177);
+    color:white;
+    border-radius: 20px;
+}
+.img-fluid{
+    border:1px solid rgb(24, 23, 23);
+    border-radius:30px;
+}
+
+#Home::after{
+    content:'';
+    display:inline-block;
+    margin-bottom: 100px;
+    
+}
+#info{
+    color:white;
+
+}
+#About::after{
+    content:'';
+    display:inline-block;
+    margin-bottom: 100px;
+    
+}
+
+
+#Internships::after{
+    content:'';
+    display:inline-block;
+    margin-bottom: 100px;
+    
+}
+#Skills::after{
+    content:'';
+    display:inline-block;
+    margin-bottom: 100px;
+    
+}
+
+@media only screen and (min-width: 768px) {
+     #Internships{
+        display:flex;
+        justify-content: space-around;
+        justify-items: center;
+        margin-bottom: 100px;
+     }
+    iframe{
+        width:500px;
+        height:450px; 
+        padding:20px;
+        margin:30px;
+     }
+
+}
+@media only screen and ( min-width: 796px ) {
+   
+    #map{
+        padding-right: 30px;;
+    }
+
+}
+
+
+#Contact{
+    background: url(con.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:rgb(15, 15, 15);
+}
+#Contact::before{
+    content:'';
+    display:inline-block;
+    margin-top: 130px;
+    
+    
+}
+#Contact::after{
+    content:'';
+    display:inline-block;
+    margin-top: 100px;
+    
+    
+}
+#query{
+    padding:20px;
+    background: url(blur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#Footer{
+    height:200px;
+    width:100%;
+    border:1px solid rgb(17, 17, 17);
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    color:beige;
+}
+#links{
+    text-align: center;
+    font-size: 2rem;
+    display:inline-block;
+    padding:20px;
+}
+#name{
+  /*  background-color: linear-gradient(65deg,red,black);*/
+  color:rgb(211, 197, 197);
+  text-shadow: 2px 2px 5px rgb(8, 226, 226);
+
+}
+
+:root {
+    --animate-duration: 4s;
+  }
+.title{
+
+    text-shadow: 1px 2px 5px   rgb(236, 228, 228);
+
+}
+
+.text{
+
+    color:rgb(233, 224, 224);
+    text-shadow: 1px 2px 5px   white;
+
+
+}
